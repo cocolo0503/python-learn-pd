@@ -1,32 +1,27 @@
 {
   "name_ids": [
-    34,
-    49,
-    34,
-    19
+    25,
+    21,
+    30,
+    40
   ],
   "status": {
-    "exp": 0,
-    "gold": 1000,
-    "weapon": 0,
-    "armor": 0,
-    "shield": 0
+    "exp": 65535,
+    "gold": 65535,
+    "weapon": 7,
+    "armor": 7,
+    "shield": 2
   },
   "items": {
     "yakuso": 6,
-    "kagi": 4,
-    "matsutake": false,
+    "kagi": 0,
     "taiyo_ishi": false,
-    "lora_love": false,
-    "nijino_shizuku": false,
-    "roto_shirusu": false,
-    "oseijo": false,
     "gin_tategoto": false,
-    "kumonowa": false
+    "lora_love": false,
+    "roto_shirusu": false,
+    "nijino_shizuku": false
   },
   "flags": {
-    "dragon": false,
-    "golem": false,
-    "death_knight": false
+    "dragon": false
   }
 }
