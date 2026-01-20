@@ -1,0 +1,32 @@
+{
+  "name_ids": [
+    34,
+    49,
+    34,
+    19
+  ],
+  "status": {
+    "exp": 0,
+    "gold": 1000,
+    "weapon": 0,
+    "armor": 0,
+    "shield": 0
+  },
+  "items": {
+    "yakuso": 6,
+    "kagi": 4,
+    "matsutake": false,
+    "taiyo_ishi": false,
+    "lora_love": false,
+    "nijino_shizuku": false,
+    "roto_shirusu": false,
+    "oseijo": false,
+    "gin_tategoto": false,
+    "kumonowa": false
+  },
+  "flags": {
+    "dragon": false,
+    "golem": false,
+    "death_knight": false
+  }
+}
