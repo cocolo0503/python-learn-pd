@@ -6,14 +6,14 @@ from logic_calculator import DQ1Calculator
 class DQ1App:
     def __init__(self, root):
         self.root = root
-        self.root.title("DQ1ふっかつメーカー・完全版")
+        self.root.title("DQ1ふっかつのじゅもんジェネレーター")
         self.root.geometry("500x700")
 
         # UI要素の定義
         tk.Label(root, text="なまえ:").pack()
-        self.e_name = tk.Entry(root, justify="center"); self.e_name.insert(0, "ろと"); self.e_name.pack()
+        self.e_name = tk.Entry(root, justify="center"); self.e_name.insert(0, "もょもと"); self.e_name.pack()
 
-        tk.Label(root, text="経験値:").pack()
+        tk.Label(root, text="けいけんち:").pack()
         self.s_exp = tk.Scale(root, from_=0, to=65535, orient="horizontal", length=300); self.s_exp.pack()
 
         tk.Label(root, text="ゴールド:").pack()
@@ -26,9 +26,9 @@ class DQ1App:
 
         # 重要アイテム
         self.items_vars = {
-            "taiyo_ishi": tk.BooleanVar(), "gin_tategoto": tk.BooleanVar(),
-            "lora_love": tk.BooleanVar(), "roto_shirusu": tk.BooleanVar(),
-            "nijino_shizuku": tk.BooleanVar()
+            "たいようのいし": tk.BooleanVar(), "ぎんのたてごと": tk.BooleanVar(),
+            "おうじょのあい": tk.BooleanVar(), "ろとのしるし": tk.BooleanVar(),
+            "にじのしずく": tk.BooleanVar()
         }
         for k, v in self.items_vars.items():
             tk.Checkbutton(root, text=k, variable=v).pack()

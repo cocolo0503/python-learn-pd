@@ -19,7 +19,10 @@
 直感的なUIで、ドラクエIの世界へ戻るための呪文を作成できます。
 
 #### 1. ステータス入力画面
-<img src="images_README/input.png" width="500px">
+<img src="img/folder_image.png" width="500px">
+<img src="img/starting_image.png" width="500px">
+<img src="img/save_json.png" width="500px">
+<img src="img/load_json.png" width="500px">
 
 アプリを起動すると、冒険者の名前や現在の進行状況を入力する画面が表示されます。以下の項目を設定してください。
 
@@ -28,11 +31,6 @@
 * **所持アイテム**: 武器、防具、だいじなもの（ロトのしるし等）の有無。
 
 入力が完了したら、画面指示に従い **「1.jsonに保存」** ボタンをクリックした後、 **「2.呪文生成」** ボタンをクリックしてください。
-
----
-
-#### 2. 呪文出力画面
-<img src="images_README/output.png" width="500px">
 
 生成が完了すると、画面中央に20文字の「ふっかつのじゅもん」が表示されます。これを実際のゲーム画面で入力してください。
 
